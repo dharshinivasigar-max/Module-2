@@ -11,9 +11,19 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
+~~~
+def result(a, b):
+    print(a % b)
 
-Add code Here
+num1 = int(input("Enter first integer: "))
+num2 = int(input("Enter second integer: "))
+
+result(num1, num2)
+~~~
 
 ## Output
-
+Enter first integer: 17
+Enter second integer: 5
+2
 ## Result
+The program defines a custom function result which accepts two parameters. Inside, it calculates the remainder using the % operator and displays it
